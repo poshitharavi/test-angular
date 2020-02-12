@@ -1,0 +1,42 @@
+[
+    {
+        "item_id": 140,
+        "description": "TAXI METER - 3 DISPLAY - GRAY SLIM"
+    },
+    {
+        "item_id": 132,
+        "description": "TAXI METER - 3 DISPLAY - SLIM"
+    },
+    {
+        "item_id": 381,
+        "description": "TAXI METER - 3 DISPLAY - SLIM - GPS"
+    },
+    {
+        "item_id": 380,
+        "description": "TAXI METER - 3DISPLAY - GRAY - GPS"
+    },
+    {
+        "item_id": 77,
+        "description": "TAXI METER - 4 DISPLAY"
+    },
+    {
+        "item_id": 119,
+        "description": "TAXI METER - 4 DISPLAY - CAR METER"
+    },
+    {
+        "item_id": 383,
+        "description": "TAXI METER - 4 DISPLAY - CAR METER - GPS"
+    },
+    {
+        "item_id": 78,
+        "description": "TAXI METER - 4 DISPLAY - FM"
+    },
+    {
+        "item_id": 139,
+        "description": "TAXI METER - 4 DISPLAY - SLIM"
+    },
+    {
+        "item_id": 382,
+        "description": "TAXI METER - 4 DISPLAY - SLIM - GPS"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "plan_id": 839,
+        "description": "Dinamina Three wheel bonanza",
+        "down_payment": 0,
+        "instalment_count": 0,
+        "instalment_value": 0
+    },
+    {
+        "plan_id": 1123,
+        "description": "Gray New 4000 + (6250 X 1)",
+        "down_payment": 4000,
+        "instalment_count": 1,
+        "instalment_value": 6250
+    },
+    {
+        "plan_id": 1124,
+        "description": "Gray New 5000 + (5000 X 1)",
+        "down_payment": 5000,
+        "instalment_count": 1,
+        "instalment_value": 5000
+    },
+    {
+        "plan_id": 1121,
+        "description": "Gray New Full Cash 9250",
+        "down_payment": 9250,
+        "instalment_count": 0,
+        "instalment_value": 0
+    },
+    {
+        "plan_id": 1143,
+        "description": "Gray Slim New 4000 + (1620 X 6)",
+        "down_payment": 4000,
+        "instalment_count": 6,
+        "instalment_value": 1620
+    }
+]
