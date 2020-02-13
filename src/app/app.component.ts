@@ -13,9 +13,9 @@ export class AppComponent {
 readonly URL = "https://jsonplaceholder.typicode.com/posts";
 posts:any;
 items:any;
-subPath = "all";
+// subPath = "140";
 
-  constructor(private http: HttpClient) { this.getYogoPosts(); this.List();};
+  constructor(private http: HttpClient) { this.getYogoPosts();};
   
 getPosts(){
 
@@ -34,8 +34,10 @@ getYogoPosts(){
 
   this.items = this.http.get("assets/items.json");
 }
+
 List(){
-  this.posts = this.http.get("assets/plan.json");
+  this.posts = this.http.get("assets/reciept-plan/140.json");
+  // console.log(sabPathSelect.value)
 
 }
 

@@ -1,0 +1,93 @@
+[
+    {
+        "plan_id": 1144,
+        "description": "3D GLB New 4500 + (1855 X 7)",
+        "down_payment": 4500,
+        "instalment_count": 7,
+        "instalment_value": 1855
+    },
+    {
+        "plan_id": 1145,
+        "description": "3D GLB New 4500 + (1855 X 8)",
+        "down_payment": 4500,
+        "instalment_count": 8,
+        "instalment_value": 1855
+    },
+    {
+        "plan_id": 1146,
+        "description": "3D GLB New 4500 + (2450 X 4)",
+        "down_payment": 4500,
+        "instalment_count": 4,
+        "instalment_value": 2450
+    },
+    {
+        "plan_id": 1147,
+        "description": "3D GLB New 4500 + (4600 X 2)",
+        "down_payment": 4500,
+        "instalment_count": 2,
+        "instalment_value": 4600
+    },
+    {
+        "plan_id": 1148,
+        "description": "3D GLB New 4500 + (8450 X 1)",
+        "down_payment": 4500,
+        "instalment_count": 1,
+        "instalment_value": 8450
+    },
+    {
+        "plan_id": 1120,
+        "description": "3D GLB New 5000 + (6750 X 1)",
+        "down_payment": 5000,
+        "instalment_count": 1,
+        "instalment_value": 6750
+    },
+    {
+        "plan_id": 1115,
+        "description": "3D GLB New Dis 5000 + (1565 X 7)",
+        "down_payment": 5000,
+        "instalment_count": 7,
+        "instalment_value": 1565
+    },
+    {
+        "plan_id": 1112,
+        "description": "3D GLB New Full Cash 11450",
+        "down_payment": 11450,
+        "instalment_count": 0,
+        "instalment_value": 0
+    },
+    {
+        "plan_id": 1116,
+        "description": "3D GLB New Nor 5000 + (1565 X 8)",
+        "down_payment": 5000,
+        "instalment_count": 8,
+        "instalment_value": 1565
+    },
+    {
+        "plan_id": 1023,
+        "description": "3DP + Printer 7000 + (1625 X 10)",
+        "down_payment": 7000,
+        "instalment_count": 10,
+        "instalment_value": 1625
+    },
+    {
+        "plan_id": 1022,
+        "description": "3DP + Printer 7000 + (1875 X 8)",
+        "down_payment": 7000,
+        "instalment_count": 8,
+        "instalment_value": 1875
+    },
+    {
+        "plan_id": 1155,
+        "description": "Kandy Pro 2020 /4500 + (1855 X 8)",
+        "down_payment": 4500,
+        "instalment_count": 8,
+        "instalment_value": 1855
+    },
+    {
+        "plan_id": 939,
+        "description": "Only/Bran/ Open Dis4500 + (4250 X 1)",
+        "down_payment": 4500,
+        "instalment_count": 1,
+        "instalment_value": 4250
+    }
+]
