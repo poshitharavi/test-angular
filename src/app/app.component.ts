@@ -12,12 +12,14 @@ export class AppComponent {
   
 readonly URL = "https://jsonplaceholder.typicode.com/posts";
 posts:any;
+items:any;
+subPath = "all";
 
-  constructor(private http: HttpClient) { this.getYogoPosts();};
+  constructor(private http: HttpClient) { this.getYogoPosts(); this.List();};
   
 getPosts(){
 
-  this.posts = this.http.get(this.URL)
+  //this.posts = this.http.get(this.URL)
 }
 
 getYogoPosts(){
@@ -30,7 +32,11 @@ getYogoPosts(){
   //   })
   // };
 
-  this.posts = this.http.get("assets/plan.json")
+  this.items = this.http.get("assets/items.json");
+}
+List(){
+  this.posts = this.http.get("assets/plan.json");
+
 }
 
 }
