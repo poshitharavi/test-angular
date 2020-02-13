@@ -97,9 +97,8 @@
         <!-- INPUTS -->
 							<div class="panel">
 								<div class="panel-body">
-									<select class="form-control"  (change)="List()" id="sabPathSelect">
-                    <option [value]="">Select the plan</option>
-										<option *ngFor="let item of items | async" [value]="item_id">
+									<select class="form-control"  (change)="List()" [(ngModel)]="subPath">
+										<option *ngFor="let item of items | async" [value]="item.item_id">
                       {{item.description}}  
                     </option>
                   </select>

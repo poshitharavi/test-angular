@@ -9,36 +9,36 @@ import { map, catchError, tap } from 'rxjs/operators';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  readonly URL = "https://jsonplaceholder.typicode.com/posts";
+  posts: any;
+  items: any;
+  subPath = "";
   
-readonly URL = "https://jsonplaceholder.typicode.com/posts";
-posts:any;
-items:any;
-// subPath = "140";
+  constructor(private http: HttpClient) { this.getYogoPosts(); };
 
-  constructor(private http: HttpClient) { this.getYogoPosts();};
-  
-getPosts(){
+  getPosts() {
 
-  //this.posts = this.http.get(this.URL)
-}
+    //this.posts = this.http.get(this.URL)
+  }
 
-getYogoPosts(){
+  getYogoPosts() {
 
-  // const httpOptions = {
-  //   headers: new HttpHeaders({
-  //     'Content-Type':  'application/json',
-  //     'Access-Control-Allow-Origin':'true',
-  //     'Access-Token' : 'CdS4kJRz'
-  //   })
-  // };
+    // const httpOptions = {
+    //   headers: new HttpHeaders({
+    //     'Content-Type':  'application/json',
+    //     'Access-Control-Allow-Origin':'true',
+    //     'Access-Token' : 'CdS4kJRz'
+    //   })
+    // };
 
-  this.items = this.http.get("assets/items.json");
-}
+    this.items = this.http.get("assets/items.json");
+  }
 
-List(){
-  this.posts = this.http.get("assets/reciept-plan/140.json");
-  // console.log(sabPathSelect.value)
+  List() {
+    this.posts = this.http.get("assets/reciept-plan/" + this.subPath + ".json");
+     console.log(this.subPath)
 
-}
+  }
 
 }
