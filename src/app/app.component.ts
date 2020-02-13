@@ -38,7 +38,6 @@ export class AppComponent {
   List() {
     this.posts = this.http.get("assets/reciept-plan/" + this.subPath + ".json");
      console.log(this.subPath)
-
   }
 
 }
